@@ -1,0 +1,15 @@
+android {
+  productFlavors {
+    "nativescript-zendesk" {
+      dimension "nativescript-zendesk"
+    }
+  }
+}
+
+repositories {
+    maven { url 'https://zendesk.artifactoryonline.com/zendesk/repo' }
+}
+
+dependencies {
+    compile group: 'com.zendesk', name: 'sdk', version: '1.5.1.2'
+}

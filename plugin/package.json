@@ -1,0 +1,51 @@
+{
+  "name": "nativescript-zendesk-with-chat",
+  "version": "v0.1.0",
+  "description": "A NativeScript module for integrating Zendesk, add chat",
+  "main": "index.js",
+  "nativescript": {
+    "platforms": {
+      "android": "1.6.0",
+      "ios": "1.6.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sitefinitysteve/nativescript-zendesk.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Zendesk",
+    "HelpCenter",
+    "Tickets",
+    "sitefinitysteve",
+    "iOS",
+    "Android"
+  ],
+  "author": {
+    "name": "Steve McNiven-Scott",
+    "email": "steve@sitefinitysteve.com",
+    "url": "https://github.com/sitefinitysteve"
+  },
+  "contributors": [
+    {
+      "name": "Antonio Cueva Urraco",
+      "email": "antonio.cueva@smarp.com",
+      "url": "https://github.com/AntonioCuevaUrraco"
+    },
+    {
+      "name": "Phat Tran",
+      "email": "phat@inspectorio.com",
+      "url": "https://github.com/phattranky"
+    },
+    {
+    "name": "Quang Le",
+      "email": "quang@inspectorio.com",
+      "url": "https://github.com/qlehong"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "license": "Apache-2.0",
+  "bugs": "https://github.com/phattranky/nativescript-zendesk/issues",
+  "homepage": "https://github.com/phattranky/nativescript-zendesk"
+}

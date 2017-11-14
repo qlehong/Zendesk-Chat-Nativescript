@@ -1,0 +1,24 @@
+<Page loaded="pageLoaded" xmlns="http://schemas.nativescript.org/tns.xsd">
+    <Page.actionBar>
+        <ActionBar title="Zendesk Test Central" icon="">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout>
+        <StackLayout class="commands">
+            <Label text="Commands" textWrap="true" class="title" />
+            <Button text="HelpCenter" tap="onLoadHelpCenter"/>
+            <Button text="HelpCenter - Open Category" tap="onLoadHelpCenterCategory"/>
+            <Button text="HelpCenter - Open Section" tap="onLoadHelpCenterSection"/>
+            <Button text="New Contact" tap="onCreateContact"/>
+            <Button text="Contact List" tap="onLoadContact"/>
+            <Button text="Open Chat" tap="openChat"/>
+        </StackLayout>
+
+        <StackLayout class="auth">
+            <Label text="Optional Auth Details" textWrap="true" class="title" />
+            <TextField hint="Id" text="{{ id }}" />
+            <TextField hint="Name" text="{{ name }}" />
+            <TextField hint="Email" text="{{ email }}" />
+        </StackLayout>
+    </StackLayout>
+</Page>
