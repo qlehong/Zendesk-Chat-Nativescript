@@ -23,8 +23,7 @@ exports.pageLoaded = function(args) {
     });
 
     zendeskChat = zendeskModule.initChat({
-        // accountKey: "4b6zjKhv1Yordyj6xGSqaMFeFWYhNORm"
-        accountKey: "kQMpuQCvv0TkXgN1zGH4ZSSz8t5GLIu0"
+        accountKey: ""
     });
 }
 
